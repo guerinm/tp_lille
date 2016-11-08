@@ -1,0 +1,55 @@
+
+#LILLE
+{
+     text-align: center;
+}
+
+#blason
+{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 100px;
+    height: 133px;
+
+}
+h1{
+    color: grey;
+}
+#menu
+{
+    background-color: #778899;
+    float: left;
+    width: 200px;
+    min-height: 100vh;
+    border: 1px solid black;
+}
+
+main
+{
+ position: absolute;
+ margin-left: 220px;
+}
+
+#planhistoire{
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+}
+
+a, a:visited {
+    /* Les liens "au repos" et déjà visités antérieurement */
+    color: #000000; /* couleur noire */
+    text-decoration:none;
+}
+a:hover, a:focus, a:active {
+    /* Les liens au survol, au focus, et actifs : on leur donne la couleur rouge pour l'exemple */
+    color: #ff0000;
+    text-decoration:none
+}
+
+table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            border-spacing: 20px;
+        }
